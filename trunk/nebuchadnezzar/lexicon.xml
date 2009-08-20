@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ccg-lexicon name="nebuchadnezzar"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="../lexicon.xsd">
+
+  <family name="Hugh" pos="plural_noun">
+    <entry name="Primary">
+      <atomcat type="N">
+	<fs>
+	  <feat attr="num" val="pl"/>
+	</fs>
+      </atomcat>
+    </entry>
+  </family>
+
+  <family name="Pugh" pos="male_name">
+    <entry name="Primary">
+      <atomcat type="N">
+	<fs>
+	  <feat attr="num" val="sg"/>
+	  <feat attr="gend" val="masc"/>
+	</fs>
+      </atomcat>
+    </entry>
+  </family>
+
+  <family name="BarneyMcGrew" pos="female_name">
+    <entry name="Primary">
+      <atomcat type="N">
+	<fs>
+	  <feat attr="num" val="sg"/>
+	  <feat attr="gend" val="fem"/>
+	</fs>
+      </atomcat>
+    </entry>
+  </family>
+
+  <family name="Cuthbert" pos="plural_intransitive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs>
+	    <feat attr="num" val="pl"/>
+	  </fs>
+	</atomcat>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="Dibble" pos="singular_intransitive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs>
+	    <feat attr="num" val="sg"/>
+	  </fs>
+	</atomcat>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="Grubb" pos="plural_transitive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs>
+	    <feat attr="num" val="pl"/>
+	  </fs>
+	</atomcat>
+        <slash dir="/"/>
+        <atomcat type="N"/>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="WindyMiller" pos="singular_transitive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs>
+	    <feat attr="num" val="sg"/>
+	  </fs>
+	</atomcat>
+        <slash dir="/"/>
+        <atomcat type="N"/>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="DoctorMop" pos="plural_reflexive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs id="1">
+	    <feat attr="num" val="pl"/>
+	  </fs>
+	</atomcat>
+        <slash dir="\"/>
+	<complexcat>
+	  <atomcat type="S"/>
+	  <slash dir="\"/>
+	  <atomcat type="N">
+	    <fs id="1"/>
+	  </atomcat>
+	  <slash dir="/"/>
+	  <atomcat type="N"/>
+	</complexcat>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="CaptainSnort" pos="male_reflexive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs id="1">
+	    <feat attr="num" val="sg"/>
+	    <feat attr="gend" val="masc"/>
+	  </fs>
+	</atomcat>
+        <slash dir="\"/>
+	<complexcat>
+	  <atomcat type="S"/>
+	  <slash dir="\"/>
+	  <atomcat type="N">
+	    <fs id="1"/>
+	  </atomcat>
+	  <slash dir="/"/>
+	  <atomcat type="N"/>
+	</complexcat>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="MrsHoneyman" pos="female_reflexive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs id="1">
+	    <feat attr="num" val="sg"/>
+	    <feat attr="gend" val="fem"/>
+	  </fs>
+	</atomcat>
+        <slash dir="\"/>
+	<complexcat>
+	  <atomcat type="S"/>
+	  <slash dir="\"/>
+	  <atomcat type="N">
+	    <fs id="1"/>
+	  </atomcat>
+	  <slash dir="/"/>
+	  <atomcat type="N"/>
+	</complexcat>
+      </complexcat>
+    </entry>
+  </family>
+
+</ccg-lexicon>
