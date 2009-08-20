@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ccg-lexicon name="fluffy"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="../lexicon.xsd">
+
+  <family name="Hugh" pos="noun">
+    <entry name="Primary">
+      <atomcat type="N"/>
+    </entry>
+  </family>
+
+  <family name="Pugh" pos="intransitive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N"/>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="BarneyMcGrew" pos="transitive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N"/>
+        <slash dir="/"/>
+        <atomcat type="N"/>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="Cuthbert" pos="reflexive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N"/>
+        <slash dir="\"/>
+	<complexcat>
+	  <atomcat type="S"/>
+	  <slash dir="\"/>
+	  <atomcat type="N"/>
+	  <slash dir="/"/>
+	  <atomcat type="N"/>
+	</complexcat>
+      </complexcat>
+    </entry>
+  </family>
+
+</ccg-lexicon>
