@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ccg-lexicon name="potomac"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="../lexicon.xsd">
+
+  <family name="Hugh" pos="noun">
+    <entry name="Primary">
+      <atomcat type="N">
+	<fs id="1">
+	  <feat attr="index">
+	    <lf>
+	      <nomvar name="X"/>
+	    </lf>
+	  </feat>
+	</fs>
+        <lf>
+	  <satop nomvar="X">
+	    <prop name="[*DEFAULT*]"/>
+	  </satop>
+	</lf>
+      </atomcat>
+    </entry>
+  </family>
+
+  <family name="Pugh" pos="intransitive">
+    <entry name="Primary">
+      <complexcat>
+	<atomcat type="S">
+	  <fs>
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="E"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs id="1">
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="X"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+	<lf>
+	  <satop nomvar="E">
+	    <prop name="[*DEFAULT*]"/>
+	  </satop>
+	  <satop nomvar="E">
+	    <diamond mode="sbj"><nomvar name="X"/></diamond>
+	  </satop>
+	</lf>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="BarneyMcGrew" pos="transitive">
+    <entry name="Primary">
+      <complexcat>
+	<atomcat type="S">
+	  <fs>
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="E"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs id="1">
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="X"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+        <slash dir="/"/>
+        <atomcat type="N">
+	  <fs>
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="Y"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+	<lf>
+	  <satop nomvar="E">
+	    <prop name="[*DEFAULT*]"/>
+	  </satop>
+	  <satop nomvar="E">
+	    <diamond mode="sbj"><nomvar name="X"/></diamond>
+	  </satop>
+	  <satop nomvar="E">
+	    <diamond mode="obj"><nomvar name="Y"/></diamond>
+	  </satop>
+	</lf>
+      </complexcat>
+    </entry>
+  </family>
+
+  <family name="Cuthbert" pos="reflexive">
+    <entry name="Primary">
+      <complexcat>
+        <atomcat type="S"/>
+        <slash dir="\"/>
+        <atomcat type="N">
+	  <fs id="1">
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="X"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+        <slash dir="\"/>
+	<complexcat>
+	  <atomcat type="S"/>
+	  <slash dir="\"/>
+	  <atomcat type="N">
+	    <fs id="1"/>
+	  </atomcat>
+	  <slash dir="/"/>
+	  <atomcat type="N">
+	    <fs>
+	      <feat attr="index">
+		<lf>
+		  <nomvar name="X"/>
+		</lf>
+	      </feat>
+	    </fs>
+	  </atomcat>
+	</complexcat>
+      </complexcat>
+    </entry>
+  </family>
+
+</ccg-lexicon>

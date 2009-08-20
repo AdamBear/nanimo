@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<morph name="potomac"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="../morph.xsd">
+
+  <entry word="girls" pos="noun" macros="@plural"/>
+  <entry word="boys" pos="noun" macros="@plural"/>
+  <entry word="Audrey" pos="noun" macros="@singular @feminine"/>
+  <entry word="Hunter" pos="noun" macros="@singular @masculine"/>
+  <entry word="dance" pos="intransitive" macros="@plural"/>
+  <entry word="dances" pos="intransitive" macros="@singular" stem="dance"/>
+  <entry word="love" pos="transitive" macros="@plural"/>
+  <entry word="loves" pos="transitive" macros="@singular" stem="love"/>
+  <entry word="themselves" pos="reflexive" macros="@plural"/>
+  <entry word="himself" pos="reflexive" macros="@singular @masculine"/>
+  <entry word="herself" pos="reflexive" macros="@singular @feminine"/>
+
+  <macro name="@singular">
+    <fs id="1">
+      <feat attr="num" val="sg"/>
+    </fs>
+  </macro>
+
+  <macro name="@plural">
+    <fs id="1">
+      <feat attr="num" val="pl"/>
+    </fs>
+  </macro>
+
+  <macro name="@feminine">
+    <fs id="1">
+      <feat attr="gend" val="fem"/>
+    </fs>
+  </macro>
+
+  <macro name="@masculine">
+    <fs id="1">
+      <feat attr="gend" val="masc"/>
+    </fs>
+  </macro>
+
+</morph>
