@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<morph name="fluffy"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="../morph.xsd">
+  <entry word="girls" pos="noun"/>
+  <entry word="boys" pos="noun"/>
+  <entry word="dance" pos="intransitive"/>
+  <entry word="love" pos="transitive"/>
+  <entry word="themselves" pos="reflexive"/>
+</morph>

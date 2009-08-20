@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<regression>
+  <item numOfParses="1" string="girls dance"/>
+  <item numOfParses="1" string="boys dance"/>
+  <item numOfParses="1" string="girls love boys"/>
+  <item numOfParses="1" string="girls love girls"/>
+  <item numOfParses="1" string="boys love girls"/>
+  <item numOfParses="1" string="boys love boys"/>
+  <item numOfParses="1" string="girls love themselves"/>
+  <item numOfParses="1" string="boys love themselves"/>
+  <item numOfParses="0" string="themselves dance"/>
+  <item numOfParses="0" string="girls dance themselves"/>
+  <item numOfParses="0" string="boys dance girls"/>
+  <item numOfParses="0" string="boys girls dance"/>
+  <item numOfParses="0" string="themselves boys dance"/>
+  <item numOfParses="0" string="love dance"/>
+  <item numOfParses="0" string="dance love"/>
+  <item numOfParses="0" string="dance girls"/>
+  <item numOfParses="0" string="dance themselves"/>
+  <item numOfParses="0" string="themselves love"/>
+  <item numOfParses="0" string="girls love"/>
+  <item numOfParses="0" string="love boys girls"/>
+  <item numOfParses="0" string="themselves love girls"/>
+  <item numOfParses="0" string="themselves girls love"/>
+  <item numOfParses="0" string="girls love themselves boys"/>
+</regression>
+
