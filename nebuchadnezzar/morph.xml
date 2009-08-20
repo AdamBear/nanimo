@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<morph name="nebuchadnezzar"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="../morph.xsd">
+  <entry word="girls" pos="plural_noun"/>
+  <entry word="boys" pos="plural_noun"/>
+  <entry word="Audrey" pos="female_name"/>
+  <entry word="Hunter" pos="male_name"/>
+  <entry word="dance" pos="plural_intransitive"/>
+  <entry word="dances" pos="singular_intransitive"/>
+  <entry word="love" pos="plural_transitive"/>
+  <entry word="loves" pos="singular_transitive"/>
+  <entry word="themselves" pos="plural_reflexive"/>
+  <entry word="himself" pos="male_reflexive"/>
+  <entry word="herself" pos="female_reflexive"/>
+</morph>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<regression>
+  <item numOfParses="1" string="girls dance"/>
+  <item numOfParses="1" string="boys dance"/>
+  <item numOfParses="1" string="Audrey dances"/>
+  <item numOfParses="1" string="Hunter dances"/>
+  <item numOfParses="0" string="girls dances"/>
+  <item numOfParses="0" string="boys dances"/>
+  <item numOfParses="0" string="Audrey dance"/>
+  <item numOfParses="0" string="Hunter dance"/>
+  <item numOfParses="1" string="girls love boys"/>
+  <item numOfParses="1" string="girls love girls"/>
+  <item numOfParses="1" string="girls love Audrey"/>
+  <item numOfParses="1" string="girls love Hunter"/>
+  <item numOfParses="1" string="boys love girls"/>
+  <item numOfParses="1" string="boys love boys"/>
+  <item numOfParses="1" string="boys love Audrey"/>
+  <item numOfParses="1" string="boys love Hunter"/>
+  <item numOfParses="1" string="Hunter loves boys"/>
+  <item numOfParses="1" string="Hunter loves girls"/>
+  <item numOfParses="1" string="Hunter loves Audrey"/>
+  <item numOfParses="1" string="Hunter loves Hunter"/>
+  <item numOfParses="1" string="Audrey loves boys"/>
+  <item numOfParses="1" string="Audrey loves girls"/>
+  <item numOfParses="1" string="Audrey loves Audrey"/>
+  <item numOfParses="1" string="Audrey loves Hunter"/>
+  <item numOfParses="0" string="girls loves boys"/>
+  <item numOfParses="0" string="girls loves girls"/>
+  <item numOfParses="0" string="girls loves Audrey"/>
+  <item numOfParses="0" string="girls loves Hunter"/>
+  <item numOfParses="0" string="boys loves girls"/>
+  <item numOfParses="0" string="boys loves boys"/>
+  <item numOfParses="0" string="boys loves Audrey"/>
+  <item numOfParses="0" string="boys loves Hunter"/>
+  <item numOfParses="0" string="Hunter love boys"/>
+  <item numOfParses="0" string="Hunter love girls"/>
+  <item numOfParses="0" string="Hunter love Audrey"/>
+  <item numOfParses="0" string="Hunter love Hunter"/>
+  <item numOfParses="0" string="Audrey love boys"/>
+  <item numOfParses="0" string="Audrey love girls"/>
+  <item numOfParses="0" string="Audrey love Audrey"/>
+  <item numOfParses="0" string="Audrey love Hunter"/>
+
+  <item numOfParses="1" string="girls love themselves"/>
+  <item numOfParses="1" string="boys love themselves"/>
+  <item numOfParses="1" string="Hunter loves himself"/>
+  <item numOfParses="1" string="Audrey loves herself"/>
+  <item numOfParses="0" string="girls loves themselves"/>
+  <item numOfParses="0" string="girls love herself"/>
+  <item numOfParses="0" string="girls love himself"/>
+  <item numOfParses="0" string="girls loves herself"/>
+  <item numOfParses="0" string="girls loves himself"/>
+  <item numOfParses="0" string="boys loves themselves"/>
+  <item numOfParses="0" string="boys love herself"/>
+  <item numOfParses="0" string="boys love himself"/>
+  <item numOfParses="0" string="boys loves herself"/>
+  <item numOfParses="0" string="boys loves himself"/>
+  <item numOfParses="0" string="Audrey loves themselves"/>
+  <item numOfParses="0" string="Audrey love herself"/>
+  <item numOfParses="0" string="Audrey love himself"/>
+  <item numOfParses="0" string="Audrey love themselves"/>
+  <item numOfParses="0" string="Audrey loves himself"/>
+  <item numOfParses="0" string="Hunter loves themselves"/>
+  <item numOfParses="0" string="Hunter love herself"/>
+  <item numOfParses="0" string="Hunter love himself"/>
+  <item numOfParses="0" string="Hunter love themselves"/>
+  <item numOfParses="0" string="Hunter loves herself"/>
+
+  <item numOfParses="0" string="themselves dance"/>
+  <item numOfParses="0" string="girls dance themselves"/>
+  <item numOfParses="0" string="boys dance girls"/>
+  <item numOfParses="0" string="boys girls dance"/>
+  <item numOfParses="0" string="themselves boys dance"/>
+  <item numOfParses="0" string="love dance"/>
+  <item numOfParses="0" string="dance love"/>
+  <item numOfParses="0" string="dance girls"/>
+  <item numOfParses="0" string="dance themselves"/>
+  <item numOfParses="0" string="themselves love"/>
+  <item numOfParses="0" string="girls love"/>
+  <item numOfParses="0" string="love boys girls"/>
+  <item numOfParses="0" string="themselves love girls"/>
+  <item numOfParses="0" string="themselves girls love"/>
+  <item numOfParses="0" string="girls love themselves boys"/>
+</regression>
+
