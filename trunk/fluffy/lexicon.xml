@@ -4,13 +4,13 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
    xsi:noNamespaceSchemaLocation="../lexicon.xsd">
 
-  <family name="Hugh" pos="noun">
+  <family name="A" pos="noun">
     <entry name="Primary">
       <atomcat type="N"/>
     </entry>
   </family>
 
-  <family name="Pugh" pos="intransitive">
+  <family name="B" pos="intransitive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -20,7 +20,7 @@
     </entry>
   </family>
 
-  <family name="BarneyMcGrew" pos="transitive">
+  <family name="C" pos="transitive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -32,7 +32,7 @@
     </entry>
   </family>
 
-  <family name="Cuthbert" pos="reflexive">
+  <family name="D" pos="reflexive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>

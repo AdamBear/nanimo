@@ -4,7 +4,7 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
    xsi:noNamespaceSchemaLocation="../lexicon.xsd">
 
-  <family name="Hugh" pos="plural_noun">
+  <family name="A" pos="plural_noun">
     <entry name="Primary">
       <atomcat type="N">
 	<fs>
@@ -14,7 +14,7 @@
     </entry>
   </family>
 
-  <family name="Pugh" pos="male_name">
+  <family name="B" pos="male_name">
     <entry name="Primary">
       <atomcat type="N">
 	<fs>
@@ -25,7 +25,7 @@
     </entry>
   </family>
 
-  <family name="BarneyMcGrew" pos="female_name">
+  <family name="C" pos="female_name">
     <entry name="Primary">
       <atomcat type="N">
 	<fs>
@@ -36,7 +36,7 @@
     </entry>
   </family>
 
-  <family name="Cuthbert" pos="plural_intransitive">
+  <family name="D" pos="plural_intransitive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -50,7 +50,7 @@
     </entry>
   </family>
 
-  <family name="Dibble" pos="singular_intransitive">
+  <family name="E" pos="singular_intransitive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -64,7 +64,7 @@
     </entry>
   </family>
 
-  <family name="Grubb" pos="plural_transitive">
+  <family name="F" pos="plural_transitive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -80,7 +80,7 @@
     </entry>
   </family>
 
-  <family name="WindyMiller" pos="singular_transitive">
+  <family name="G" pos="singular_transitive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -96,7 +96,7 @@
     </entry>
   </family>
 
-  <family name="DoctorMop" pos="plural_reflexive">
+  <family name="H" pos="plural_reflexive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -120,7 +120,7 @@
     </entry>
   </family>
 
-  <family name="CaptainSnort" pos="male_reflexive">
+  <family name="I" pos="male_reflexive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
@@ -145,7 +145,7 @@
     </entry>
   </family>
 
-  <family name="MrsHoneyman" pos="female_reflexive">
+  <family name="J" pos="female_reflexive">
     <entry name="Primary">
       <complexcat>
         <atomcat type="S"/>
