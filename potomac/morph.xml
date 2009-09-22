@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<morph name="potomac"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xsi:noNamespaceSchemaLocation="../morph.xsd">
+<morph name="potomac">
 
   <entry word="girls" pos="noun" macros="@plural"/>
   <entry word="boys" pos="noun" macros="@plural"/>
