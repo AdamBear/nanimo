@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<morph name="nebuchadnezzar"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xsi:noNamespaceSchemaLocation="../morph.xsd">
+<morph name="nebuchadnezzar">
   <entry word="girls" pos="plural_noun"/>
   <entry word="boys" pos="plural_noun"/>
   <entry word="Audrey" pos="female_name"/>
