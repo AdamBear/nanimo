@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ccg-lexicon name="kentucky">
+
+  <family name="A" pos="clause">
+    <entry name="Primary">
+      <atomcat type="S">
+	<fs>
+	  <feat attr="index">
+	    <lf>
+	      <nomvar name="E"/>
+	    </lf>
+	  </feat>
+	</fs>
+	<lf>
+	  <satop nomvar="E">
+	    <prop name="[*DEFAULT*]"/>
+	  </satop>
+	</lf>
+      </atomcat>
+    </entry>
+  </family>
+
+</ccg-lexicon>

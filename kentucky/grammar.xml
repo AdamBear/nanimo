@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<grammar name="kentucky">
+  <lexicon file="lexicon.xml"/>
+  <morphology file="morph.xml"/>
+  <rules file="rules.xml"/>
+</grammar>

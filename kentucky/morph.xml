@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<morph name="kentucky">
+
+  <entry word="a" pos="clause"/>
+  <entry word="b" pos="clause"/>
+  <entry word="c" pos="clause"/>
+  <entry word="d" pos="clause"/>
+  <entry word="e" pos="clause"/>
+  <entry word="f" pos="clause"/>
+
+</morph>
