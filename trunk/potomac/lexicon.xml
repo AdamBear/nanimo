@@ -12,11 +12,6 @@
 	    </lf>
 	  </feat>
 	</fs>
-        <lf>
-	  <satop nomvar="X">
-	    <prop name="[*DEFAULT*]"/>
-	  </satop>
-	</lf>
       </atomcat>
     </entry>
   </family>

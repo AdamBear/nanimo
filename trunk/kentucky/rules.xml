@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rules name="kentucky">
+
+  <application dir="backward"/>
+
+  <typechanging name="merge">
+    <arg>
+      <atomcat type="S">
+	<fs>
+	  <feat attr="index">
+	    <lf>
+	      <nomvar name="E"/>
+	    </lf>
+	  </feat>
+	</fs>
+      </atomcat>
+    </arg>
+    <result>
+      <complexcat>
+	<atomcat type="S">
+	  <fs>
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="G"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+	<slash dir="\"/>
+	<atomcat type="S">
+	  <fs>
+	    <feat attr="index">
+	      <lf>
+		<nomvar name="F"/>
+	      </lf>
+	    </feat>
+	  </fs>
+	</atomcat>
+	<lf>
+	  <satop nomvar="G">
+	    <diamond mode="arg1">
+	      <nomvar name="F"/>
+	    </diamond>
+	  </satop>
+	  <satop nomvar="G">
+	    <diamond mode="arg2">
+	      <nomvar name="E"/>
+	    </diamond>
+	  </satop>
+	</lf>
+      </complexcat>
+    </result>
+  </typechanging>
+
+
+</rules>

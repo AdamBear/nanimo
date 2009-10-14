@@ -2,10 +2,10 @@
 
 <morph name="potomac">
 
-  <entry word="girls" pos="noun" macros="@plural"/>
-  <entry word="boys" pos="noun" macros="@plural"/>
-  <entry word="Audrey" pos="noun" macros="@singular @feminine"/>
-  <entry word="Hunter" pos="noun" macros="@singular @masculine"/>
+  <entry word="girls" pos="noun" macros="@plural @group" stem="girl"/>
+  <entry word="boys" pos="noun" macros="@plural @group" stem="boy"/>
+  <entry word="Audrey" pos="noun" macros="@singular @feminine @individual"/>
+  <entry word="Hunter" pos="noun" macros="@singular @masculine @individual"/>
   <entry word="dance" pos="intransitive" macros="@plural"/>
   <entry word="dances" pos="intransitive" macros="@singular" stem="dance"/>
   <entry word="love" pos="transitive" macros="@plural"/>
@@ -24,6 +24,30 @@
     <fs id="1">
       <feat attr="num" val="pl"/>
     </fs>
+  </macro>
+
+  <macro name="@individual">
+    <lf>
+      <satop nomvar="X">
+	<prop name="[*DEFAULT*]"/>
+      </satop>
+    </lf>
+  </macro>
+
+  <macro name="@group">
+    <lf>
+      <satop nomvar="X">
+	<prop name="group"/>
+      </satop>
+      <satop nomvar="X">
+	<diamond mode="of">
+	  <nomvar name="Y"/>
+	</diamond>
+      </satop>
+      <satop nomvar="Y">
+	<prop name="[*DEFAULT*]"/>
+      </satop>
+    </lf>
   </macro>
 
   <macro name="@feminine">
