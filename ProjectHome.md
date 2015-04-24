@@ -1,0 +1,1 @@
+A series of OpenCCG XML grammars of increasing complexity, intended as teaching aids for people learning the OpenCCG grammar development platform.
